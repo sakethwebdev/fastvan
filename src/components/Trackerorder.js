@@ -66,8 +66,27 @@ const TrackOrder = () => {
 
   const renderOrderDetails = () => {
     if (isLoading) {
-      return <div>Loading...</div>;
-    }
+      return(
+        
+        <>
+        <div className="waviy">
+          <span style={{ letterSpacing: '1px' }}>L</span>
+          <span style={{ letterSpacing: '2px' }}>O</span>
+          <span style={{ letterSpacing: '3px' }}>A</span>
+          <span style={{ letterSpacing: '4px' }}>D</span>
+          <span style={{ letterSpacing: '5px' }}>I</span>
+          <span style={{ letterSpacing: '6px' }}>N</span>
+          <span style={{ letterSpacing: '7px' }}>G</span>
+          <span style={{ letterSpacing: '8px' }}>.</span>
+          <span style={{ letterSpacing: '9px' }}>.</span>
+          <span style={{ letterSpacing: '10px' }}>.</span>
+        </div>
+        
+        
+        
+        </>
+      );
+    };
 
     if (error) {
       return <div>Error: {error}</div>;

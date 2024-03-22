@@ -15,8 +15,12 @@ export default function Header() {
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
 
-                <NavLink to='/fareestimate' class="nav-link" className='pages'> <h5>Fare Estimate &emsp; </h5> </NavLink>
+                <NavLink to='/' class="nav-link" className='pages'> <h5>Home &emsp; </h5> </NavLink>
 
+              </li>
+              <li>
+
+              <NavLink to='/fareestimate' class="nav-link" className='pages'> <h5>Fare Estimate &emsp; </h5> </NavLink>
               </li>
 
               <li>
