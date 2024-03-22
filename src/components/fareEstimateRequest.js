@@ -27,7 +27,7 @@ const FareEstimateForm = () => {
     try {
       const fareAmount = calculateFare(requestBody.pickupLat, requestBody.pickupLng, requestBody.dropLat, requestBody.dropLng);
       setFareAmount(fareAmount);
-      setError(null); // Clear any previous errors
+      setError(null); 
     } catch (error) {
       console.error('Error:', error);
       setError('Failed to fetch fare estimate');
