@@ -44,7 +44,7 @@ const TrackOrder = () => {
         setOrderData(null);
       }
       setIsLoading(false);
-    }, 1000);
+    }, 5000);
   };
 
   const cancelOrder = () => {
