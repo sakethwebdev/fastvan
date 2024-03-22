@@ -1,6 +1,5 @@
 
 import React, { useState } from 'react';
-// import './styles.css'; 
 const FareEstimateForm = () => {
   const [pickupLat, setPickupLat] = useState('');
   const [pickupLng, setPickupLng] = useState('');
