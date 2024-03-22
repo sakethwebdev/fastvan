@@ -1,5 +1,5 @@
-first go to fastvan "cd fastvan"
-next type npm start then you can see the output 
+open the code if the path is in fastvan then type npm start if not please move to fastvan by cmd "cd fastvan"
+then you can see the output 
 
 first fareEstation you can see the fair cost
 
