@@ -92,9 +92,13 @@ button {
 
 .pages{
   text-decoration: none;
+ 
   
 }
 
+.nav-link{
+  margin-left: 0%;
+}
 
 
 
